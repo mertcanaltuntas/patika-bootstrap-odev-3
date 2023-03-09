@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin</title>
-    <link rel="stylesheet" href="/bootstraplinkedinclone/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="style.css" />
+    <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
+    crossorigin="anonymous">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -19,11 +18,11 @@
     />
   </head>
   <body class="body">
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbarbg">
+    <!-- navbar --> <!--border ile kenarlık eklendi navbar fixed ile navbar yukarı sabitlendi-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbarbg fixed-top border border-danger"> 
       <a class="navbar-brand" href="#"
-        ><i
-          class="fab fa-linkedin fa-lg"
+        > <!--ml-5 ile logoya soldan 5 birim boşluk atandı--><i
+          class="fab fa-linkedin fa-lg ml-5"
           style="color: #0a66c2; font-size: 2.4rem"
         ></i
       ></a>
@@ -36,7 +35,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       ></button>
-      <form class="form-inline">
+      <form class="form-inline" style="margin-right: 300px;">
         <input
           class="form-control searche"
           type="search"
@@ -44,7 +43,7 @@
           aria-label="Search"
         />
       </form>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse text-center"> <!--text center ile navbar yazı ve simgeleri burada ortalandı-->
         <ul class="navbar-nav mr-auto ml-4">
           <li class="nav-item active mr-3">
             <a class="nav-link" href="#"
@@ -92,10 +91,11 @@
               aria-expanded="false"
             >
               <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
+                src="pp.png"
                 style="
                   width: 25px;
                   height: 25px;
+                  
                 "
               />
               <div
